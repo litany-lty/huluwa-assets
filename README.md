@@ -34,9 +34,12 @@ GameAssets/
 │   ├── index.js                 #   Three.js 48 项 3D 资产清单（MODEL_3D_MANIFEST）与实例化工具类
 │   └── GLTFLoader.js            #   兼容 Three.js ES Module 的零外部依赖 GLB 加载器
 │
-├── Audio_Pure/                  # [音频素材] 23 个无损 WAV
+├── Audio_Pure/                  # [重制音频素材] 23 个无损 WAV
 │   ├── BGM/                     #   5 首国风器乐背景音乐（含片头、三幕场景与升调片尾）
 │   └── SFX/                     #   18 条 UI、拾取、七兄弟神通与妖精法宝音效
+├── Audio_Original_1986/         # [1986 原版原声提取] 9 首原版主题曲与经典纯配乐
+│   ├── MP3/                     #   9 首 48kHz 320kbps MP3（含 ID3 曲目信息）
+│   └── WAV/                     #   9 首 48kHz 16-bit 无损立体声 WAV
 │
 └── tools_3d/                    # [3D 生成脚本] Python + Blender 5.3 自动化建模与 PBR 烘焙管线
 ```
@@ -88,7 +91,8 @@ scene.add(scorpion);
 | 七色掉落灵珠 | 7 | `Sprites_Props_Env/03_Drop_Orbs/` | `Models_3D/Orbs/` |
 | 技能与法宝特效 | 8 | `Sprites_VFX/` | `Models_3D/VFX/` |
 | 场景地面贴图/地形 | 3 | `Sprites_Maps/` | `Models_3D/Maps/` |
-| 背景音乐与音效 | 23 | `Audio_Pure/BGM/` · `Audio_Pure/SFX/` | —（2D/3D 通用） |
+| 重制背景音乐与音效 | 23 | `Audio_Pure/BGM/` · `Audio_Pure/SFX/` | —（2D/3D 通用） |
+| 1986 原版主题曲与配乐 | 9 | `Audio_Original_1986/MP3/` · `Audio_Original_1986/WAV/` | —（原片原声提取） |
 
 ---
 
