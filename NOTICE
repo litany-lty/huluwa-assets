@@ -1,0 +1,7 @@
+Scope note: this MIT license covers the loader and build scripts in this
+repository (Models_3D/index.js, Models_3D/GLTFLoader.js, tools_3d/). It does
+NOT cover the visual and audio asset files (Sprites_*, Models_3D/**/*.glb,
+Models_3D/Maps/*.png, Audio_Pure/), which are non-commercial fan-made
+derivatives of characters, props, scenes and music from "Calabash Brothers"
+(葫芦兄弟, Shanghai Animation Film Studio, 1986). All rights to the original
+work belong to their respective holders.
